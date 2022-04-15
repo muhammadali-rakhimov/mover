@@ -1,0 +1,671 @@
+@import "normalize.css";
+
+body {
+    background: #EBEFF2;
+}
+
+.allsite {
+    width: 950px;
+    height: 1272px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    position: relative;
+    background: rgb(255, 255, 255);
+    margin: 0px auto;
+    padding: 15px 10px 10px;
+    overflow: hidden;
+}
+
+.moverlogo {
+    /*height: 34px;*/
+    /*width: 153px;*/
+    height: 45px;
+    width: 173px;
+    overflow: hidden;
+    text-align: center;
+    /*border: 1px solid grey;*/
+    display: block;
+    font: bold 30px arial;
+    color: #900;
+    float: left;
+    position: relative;
+    margin: 0px;
+    padding: 40px 10px 0px 1px;
+}
+
+.moversearch {
+    height: 76px;
+    width: 568px;
+    margin-top: 4px;
+    margin-left: 5px;
+    float: left;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    /*border: 1px solid grey;*/
+}
+
+.moversearch > ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: -40px;
+    position: relative;
+    top: -13px;
+}
+
+.moversearch > ul > li {
+    float: left;
+    font-size: 13px;
+    text-decoration: underline;
+    text-decoration: none;
+    display: list-item;
+}
+
+.moversearch > ul > li > a {
+    color: black;
+    position: relative;
+    top: 6px;
+    padding-left: 20px;
+}
+
+#redborder {
+    height: 21.3px;
+    width: 122.7px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 4.7px;
+    padding-bottom: -7px;
+    margin-left: 1px;
+    font: normal 14px arial;
+    color: white;
+    background: #c0003d;
+    border: 1px solid #E50000;
+    border-radius: 3px;
+    box-shadow: inset 0 0 5px 0 rgba(255,255,255,0.90);
+}
+
+#redborder:hover {
+    color: #F2EB9B;
+    cursor: pointer;
+    background: #AC0238;
+    border: 1px solid #E50000;
+}
+
+.l1 {
+    margin-left: -4px;
+}
+.l2 {
+    padding-left: 4px;
+}
+.l3 {
+    padding-left: 4px;
+}
+.l4 {
+    padding-left: 4px;
+}
+
+.search {
+    margin: 0;
+    border: 0px solid #bdc7d2;
+    border-right: none;
+    float: left;
+    font-size: 14px;
+    padding-left: 5px;
+    width: 489px;
+    height: 24px;
+    background: transparent;
+}
+
+
+.headersearch {
+    margin: -16px 0 0 0;
+    padding-left: 0;
+    border: 3px solid #e9eff6;
+    box-shadow: inset 0 0 3px 1px rgba(0,0,0,0.40);
+    color: #666;
+    background: transparent;
+    position: relative;
+    left: 1px;
+}
+.headersearch > input {
+        border: 1px solid #bdc7d2;
+
+}
+.submit {
+    width: 65px;
+    height: 28px;
+    font: bold 13px/13px arial;
+    color: #666666;
+    cursor: pointer;
+    border: 1px solid #AAB3BD !important;
+    text-shadow: #fff 0 1px 0;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.20, rgb(210,211,214)), color-stop(0.80, rgb(255,255,255)));
+    box-shadow: inset 0 0 0px 2px rgba(0,0,0, 0.03), inset 0 0 0 1px rgba(255,255,255, 0.5);
+}
+
+.menu {
+    height: 36px;
+    width: 949.5px;
+    margin-top: 2px;
+    background: #73818D;
+    border-radius: 2.5px;
+    display: block;
+    position: relative;
+    top: 3px;
+}
+
+.menu ul {
+    list-style-type: none;
+    /*text-align: center;*/
+    word-spacing: 5px;
+    font-size: 15px;
+    font-family: arial, Helvetica, sans-serif;
+    line-height: 36px;
+    padding: 10px 0 0 15px;
+}
+
+.menu ul li a {
+    width: inherit;
+    height: inherit;
+    top: -10px;
+    bottom: 400px;
+    padding-left: 11px;
+    padding-right: 13px;
+    display: inline-flex;
+    color: #fff;
+    float: left;
+    position: relative;
+    border-right: 1px solid rgba(255,255,255,0.2);
+    text-decoration: none;
+}
+
+.menu > ul > li a:hover {
+    background: #56748F;
+    color: white !important;
+    height: 35px;
+}
+
+
+
+
+
+
+
+
+
+                                                        /* HOVERMENU */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hovermenuprocheee {
+    background: #73818D !important;
+    color: white;
+    padding: 0;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.hovermenuprocheee:hover {
+    color: #ffffff !important;
+}
+
+.hovermenuprocheee > a {
+    background: #73818D !important;
+}
+
+.hovermenuprocheee a:hover{
+    color: #FFFFFF;
+}
+
+.hovermenu {
+    position: relative;
+    display: block;
+}
+
+.ulspisok {
+    top: 26px;
+    right: 0;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.ulspisok a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+ .hovermenu:hover .ulspisok {
+    display: block !important;
+    width: 200px;
+    height: 400px;
+    background: #808080;
+}
+
+.hovermenu:hover .hovermenuprocheee {
+    background-color: #56748F;
+} 
+
+
+.ulspisok:hover li {
+    display: block;
+}
+
+.ulspisok {
+    border: 0 !important;
+}
+
+.hovermenu ul {
+    display: none;
+    position: absolute !important;
+    top: 35px !important;
+    right: -3px !important;
+    float: right !important;
+    padding: 0;
+    margin: 0;
+    background: #73818d;
+    border: 1px solid #86a6c4;
+    border-top: none;
+    z-index: 10000;
+    text-align: center;
+}
+
+.hovermenu:hover {
+    background: #73818D !important;
+    z-index: 9999999999999;
+}
+
+.hovermenu:hover li {
+    display: grid;
+    line-height: 1em;
+}
+
+.hovermenu:hover a {
+    background: #808080 !important;
+}
+
+.hovermenu:hover a:hover {
+    color: #FFEE99 !important;
+}
+
+#prochee {
+    color: white !important;
+}
+
+#prochee:hover {
+    background: #56748F !important;
+}
+
+
+
+
+
+
+
+
+                                                        /* HOVERMENU */
+
+
+
+
+
+
+
+
+
+#firstli {
+    margin-left: -13px;
+
+}
+
+#notborder {
+    border: none !important;
+}
+
+.filtr {
+    float: left;
+    height: 45px;
+    width: 617px;
+    border-bottom: 1px solid #D8D8D8;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.filtr > span {
+    font-size: 18px;
+    color: #222222;
+    position: relative;
+    top: -10px;
+}
+
+#filtrronaldo {
+    color: #CC0000 !important;  
+}
+
+.filtr > select {
+    width: 75px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-shadow: #fff 0 1px 0;
+    /*background-color: #EFEEEA;*/
+     /*Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+52,f1f1f1+78,f6f6f6+100 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 52%, rgba(241,241,241,1) 78%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 52%,rgba(241,241,241,1) 78%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 52%,rgba(241,241,241,1) 78%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+.filtr {
+    font-size: 12px;
+    font-family: arial;
+}
+
+/* VIDEOLIST */
+
+.videolist {
+    float: none !important;
+    display: inline-block;
+    width: 623px;
+    height: 800px;
+    float: left;
+    /*background: #EEEEEE;*/
+}
+
+/* VIDEOLIST */
+
+
+/* ALLVIDEOS-CONFIGURATIONS */
+/*.video {*/
+    
+
+.video {
+    display: inline-block;
+    padding-top: 10px;
+    width: 143px;
+    height: 145px;
+    overflow: hidden;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+.video img {
+    font-size: 12px;
+}
+
+.video > a {
+    margin-left: 2px;
+}
+
+.info {
+    width: 150px;
+    position: relative;
+    top: -15px;
+    padding: 0 !important;
+    line-height: 0.9em;
+    display: inline-block;
+}
+
+.zagolovokvideo {
+    width: 250px;
+    height: 30px;
+    font: bold 13px arial;
+    color: #3572BC;
+}
+
+.zagolovokvideo:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.time {
+    text-align: center;
+    width: 25px;
+    height: 14px;
+    padding: 1px;
+    position: relative;
+    right: 11px;
+    bottom: 20px;
+    /*background: #000000;
+    color: #ffffff;*/
+    background: #000;
+    color: #ccc;
+    opacity: 0.65;
+    float: right;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.time:hover {
+    color: #A59A63;
+}
+
+.prosmotrov {
+    display: block;
+    font-size: 11px;
+    color: #666666;
+    position: relative;
+    top: 2px;
+}
+
+.temasi {
+    display: block;
+    font-size: 11px;
+    color: #3572BC;
+    position: relative;
+    top: 3px;
+}
+
+.top {
+    margin-top: 5px;
+}
+
+.right {
+    margin-left: 12px;
+}
+
+.right2 {
+    margin-left: 12px;
+}
+
+.right3 {
+    margin-left: 12px;
+}
+
+.nottop {
+    padding: 0;
+}
+
+.qochoq {
+    /*position: relative;
+    bottom: 13px;*/
+    margin-top: -15px;
+}
+
+/* CONFIGURATIONS-END */
+
+
+/* AFISHAMEDIA-START */
+
+.afisha {
+    position: relative;
+    bottom: 45px;
+    height: 500px;
+    width: 300px;
+    float: right;
+    background: orange;
+    cursor: pointer;
+}
+
+.afishareklama {
+    float: right;
+    height: 30px;
+    width: inherit;
+    background: #EEEEEE;
+    position: relative;
+    top: -4px;
+}
+
+.afishareklama a {
+    color: #808080;
+    float: right;
+    font-size: 12px;
+    margin: 9px 6px 0 0;
+}
+
+/* AFISHAMEDIA-END */
+
+
+/* BETLA VIPIDAN */
+
+.pagesvip {
+    width: 950px;
+    font-size: 13px;
+    position: relative;
+    top: 50px;
+}
+
+.pagesvip span {
+    color: #999999;
+}
+
+.pagesvip a {
+    color: #3572BC;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.pagesvip a:hover {
+    color: red;
+}
+
+.pagesvip > div > a {
+    border: 1px solid #A6A6A6;
+}
+
+.pagesvip b {
+    padding: 6px 9px;
+    border-radius: 2px;
+    background: #3FB361;
+    color: #ffffff;
+}
+
+.pagesbittabitta {
+    width: 230px;
+    height: 40px;
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+}
+
+.pagesbittabitta a {
+    font-size: 16px;
+    padding: 3px 6px;
+    background: #EEEEEE;
+    color: #484848;
+    text-decoration: none;
+}
+
+.pagesbittabitta a:hover {
+    padding: 5px 7px;
+    background: #AAC3F2;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* BETLA VIPIDAN */
+
+/* FOOTER */
+
+footer {
+    width: 950px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+}
+
+footer div {
+    width: 950px;
+    height: 50px;
+    margin-top: 10px;
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #3572BC;
+}
+
+#soglasheniya {
+    color: #000000;
+}
+
+#soglasheniya a {
+    color: #1A5F9B;
+}
+
+.intasix {
+    position: relative;
+    top: 5px;
+}
+
+.kontakti {
+    position: relative;
+    top: -10px;
+    color: #3572BC;
+    text-decoration: underline;
+}
+
+.kontakti:hover {
+    color: red;
+}
+
+.razsayta {
+    color: black;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.razafisha {
+    font-size: 12px;
+    text-decoration: underline;
+    color: #f39;
+}
+
+.razsayta, .razafisha {
+    position: relative;
+    top: -60px;
+}
+
+footer img {
+    clear: right;
+    position: relative;
+    left: 575px;
+    bottom: 40px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.clear {
+    width: 950px;
+    height: 1px;
+    /*background: green;*/
+    position: relative;
+    bottom: 1px;
+}
